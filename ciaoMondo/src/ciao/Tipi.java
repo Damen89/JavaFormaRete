@@ -28,5 +28,31 @@ public class Tipi {
 	//System.out.println("Litri totali " + litriBotte + litriBottiglia);//ATT: tratta i due numeri come se fossero due stringhe
 	
 	///////Tipi char e boolean
+	
+	char genereA = 'a';
+	char genereM = 'm';
+	char genereF = 'f';
+	
+	char C = 'c';
+	char I = 'i';
+	char A = 'a';
+	char O = 'o';
+	
+	System.out.println(C+I+A+O); //somma il codice ascii dei singoli caratteri
+	
+	////Boolean definisce una variabile 
+	boolean acceso = true;
+	
+	boolean presente = true;
+	
+	System.out.println("Il candidato è presente ? " + presente);
+	
+		//condizioni
+		if(presente) {
+			System.out.println("Lo studente è presente");
+		}else {
+			System.out.println("Lo studente è assente");
+		}
+		
 	}
 }
