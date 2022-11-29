@@ -1,6 +1,8 @@
 package lezione3_array;
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Comparator;
 
 public class ArrayList01 {
 	public static void main(String[] args) {
@@ -59,6 +61,8 @@ public class ArrayList01 {
 		for(int i = 0; i < voti.size(); i++) {
 			System.out.println("Nome Studente: " + classe.get(i) + " - voto: " + voti.get(i));
 		}
+		
+		
 		
 	}
 }
