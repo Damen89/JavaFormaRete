@@ -5,4 +5,5 @@
 
  - [Tipi](https://github.com/Damen89/JavaFormaRete/tree/main/LezioniTipi/src/lezione1_tipi)
  - [Statement](https://github.com/Damen89/JavaFormaRete/tree/main/LezioniTipi/src/lezione2_statement)
+ - [Classi](https://github.com/Damen89/JavaFormaRete/tree/main/LezioniTipi/src/lezione1_classi)
  - [Esempi](https://github.com/Damen89/JavaFormaRete/tree/main/LezioniTipi/src/esempi)
