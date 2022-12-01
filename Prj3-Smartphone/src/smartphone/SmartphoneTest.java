@@ -6,6 +6,7 @@ public class SmartphoneTest {
 		
 		Smartphone smartphone = new Smartphone();
 		Display schermo = new Display();
+		Batteria batteria = new Batteria();
 		
 		//setto le prop dello smartphone
 		smartphone.setMarca("Samsung");
@@ -18,9 +19,14 @@ public class SmartphoneTest {
 		schermo.setMarca("Screen+");
 		schermo.setModello("Lcd");
 		schermo.setRisoluzione("1200 x 1480");
+		
+		//setto le prop della batteria
+		batteria.setPercentualeCarica("70%");
 				
 		//setto lo schermo allo smartphone
 		smartphone.setSchermo(schermo);
+		
+		smartphone.setBatteria(batteria);
 		
 		System.out.println(smartphone.toString());
 				

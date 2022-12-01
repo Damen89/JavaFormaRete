@@ -9,11 +9,22 @@ public class Smartphone {
 	
 	private Display schermo;  //la classe Display è un tipo di dato complesso
 	
+	private Batteria batteria;
+	
+	
 	
 //  IL METODO DI DEFAULT, SE NON SPECIFICATO, VERRà COMUNQUE INSERITO DI DEFAULT
 //	public Smartphone() {
 //		super();
 //	}
+
+	public Batteria getBatteria() {
+		return batteria;
+	}
+
+	public void setBatteria(Batteria batteria) {
+		this.batteria = batteria;
+	}
 
 	public String getMarca() {
 		return marca;
@@ -58,10 +69,8 @@ public class Smartphone {
 	@Override
 	public String toString() {
 		return "Smartphone [marca=" + marca + ", modello=" + modello + ", imei=" + imei + ", numSeriale=" + numSeriale
-				+ ", schermo=" + schermo.toString() + "]";
+				+ ", schermo=" + schermo.toString() + ", batteria="  + batteria.getPercentualeCarica() + "]";
 	}
-	
-	
 	
 
 }
